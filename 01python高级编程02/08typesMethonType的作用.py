@@ -17,15 +17,15 @@ xxx = types.MethodType(eat,p1)
 xxx()
 
 @staticmethod
-def func1():
+def func1():#静态方法
     print('===static methon===')
 
 @classmethod
-def func2(cls):
+def func2(cls):#类方法
     print('===class methond===')
 
-Person.func1 = func1
-Person.func2 = func2
+Person.func1 = func1#静态方法的添加
+Person.func2 = func2#类方法添加
 Person.func1()
 Person.func2()
 
