@@ -9,3 +9,7 @@ a = 'hello world'
 b ='hello world'
 print(id(a))
 print(id(b))
+c = 1356
+d = 1356
+print(id(c))
+print(id(d))
